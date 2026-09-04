@@ -25,4 +25,4 @@ elif choice == 3:
     print(k, "K =", round(c, 2), "C")
 
 else:
-    print("Choice is incorrect")
+    print("Choice is wrong")
