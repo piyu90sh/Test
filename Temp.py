@@ -13,13 +13,13 @@ if choice == 1:
     print(c, "C =", f, "F")
 
 elif choice == 2:
-    f = float(input("Enter Farenheit "))
+    f = float(input("Enter Farenheit: "))
     c = (f - 32) * 5 / 9
     print("Result :")
     print(f, "F =", round(c), "C")
 
 elif choice == 3:
-    k = float(input("Enter Kelvin "))
+    k = float(input("Enter Kelvin: "))
     c = k - 273.15
     print("Result :")
     print(k, "K =", round(c, 2), "C")
